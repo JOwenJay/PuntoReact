@@ -1,0 +1,65 @@
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.verde {
+  background-color: green;
+}
+
+.rojo {
+  background-color: red;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+progress {
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.previous,
+.next {
+  margin: 0 10px;
+}
+
+.previous a,
+.next a {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+}
+
+.disabled a {
+  pointer-events: none;
+  color: #999;
+}
+
+.active a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.page-link.active {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
